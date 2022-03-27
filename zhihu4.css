@@ -1,0 +1,183 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+.adv{
+    width: 30%;
+    background-color: #f8f8f8;
+    box-shadow: 0rem 0rem 0.5rem 0.2rem rbg(200,200,200);
+}
+.adv1{
+    background-color: white;
+    box-shadow: 0rem 0rem 0.5rem 0.2rem rbg(200,200,200);
+}
+.portrait img{
+   width: 1.5rem; 
+}
+.personalinfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0rem 0.5rem 0.5rem 0.5rem;
+}
+.personalinfo span{
+    font-size: 0.5rem;
+    margin: auto 0.3rem;
+}
+.personalinfo :nth-child(3){
+    color: #0099ff;
+}
+.personalinfo :nth-child(4){
+    color: #8590a6;
+    margin-left: 4rem;
+}
+.funct{
+    display:flex;
+    justify-content: center;
+}
+.detailfunct{
+    margin:1rem 0.55rem 0rem 0.55rem;
+}
+.detailfunct span{
+    font-size:0.5rem;
+}
+.detailpict{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border:0rem;
+    margin: 0rem auto;
+}
+#pict1{
+    background-color: #e1edff;
+}
+#pict2{
+    background-color: #fff3e2;
+}
+#pict3{
+    background-color: #fef9e2;
+}
+#pict4{
+    background-color: #e5f7f7;
+}
+.detailpict img{
+    margin: 0.25rem 0.25rem;
+    max-height: 1.5rem;
+    max-width: 1.5rem;
+}
+.history{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin:1rem auto;
+    width:13rem;
+    background-color: #f8f8f8;
+}
+.history :nth-child(1){
+    padding-right: 0.5rem;
+}
+.history :nth-child(2){
+    padding-left: 0.5rem;
+}
+.detailhis{
+    background-color: #f8f8f8;
+    padding: 0.5rem;
+    margin:0.5rem 0rem;
+    height: 4rem;
+    width: 6rem;
+}
+#his1{
+    border-right:0.05rem solid #f1f1f1 ;
+    color:#8590a6;
+}
+#his2{
+    border-left:0.05rem solid #f1f1f1 ;
+    color:#8590a6;
+}
+.detailhis span{
+    font-size:0.5rem;
+}
+.enter{
+    text-align: center;
+    padding-bottom:0.5rem;
+}
+.enter button{
+    background: white;
+    color:#5266ff;
+    width: 11rem;
+    height: 1.5rem;
+    border:0.05rem solid #5266ff;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+.adv2{
+    background-color: white;
+    box-shadow: 0rem 0rem 0.5rem 0.2rem rbg(200,200,200);
+}
+
+.anotherfunct{
+    display:flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.onefunct1{
+    text-align: center;
+    padding: 1rem 1rem 0rem;
+}
+.onefunct2{
+    text-align: center;
+    padding: 0rem 1rem 1rem;
+}
+.anotherfunct img{
+    max-width:1.5rem;
+}
+.anotherfunct span{
+    font-size:0.5rem;
+    color:#859ec5;
+}
+.firstadv{
+    box-shadow: 0rem 0rem 0.5rem 0.2rem rbg(200,200,200);
+}
+.firstadv img{
+    max-width: 15rem;
+}
+.restfunct{
+    background-color: white;
+    width: 15rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0rem 0rem 0.5rem 0.2rem rbg(200,200,200);
+}
+.restfunct img{
+    max-width: 1rem;
+}
+.everyfunct{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.everyfunct span{
+    color:#8590a6;
+    margin:0.5rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: 0.4rem;
+}
+.secondadv{
+    box-shadow: 0rem 0rem 0.5rem 0.2rem rbg(200,200,200);
+}
+.secondadv img{
+    max-width: 15rem;
+}
+.webinfo{
+    box-shadow: 0rem 0rem 0.5rem 0.2rem rbg(200,200,200);
+}
+.webinfo span{
+    color:#8590a6;
+    font-size: 2px;
+}
+.sticky{
+    position:sticky;
+    top:4rem;
+}
